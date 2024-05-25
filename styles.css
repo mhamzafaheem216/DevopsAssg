@@ -1,0 +1,37 @@
+
+/* Styles for header and footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Styles for main sections */
+.intro, .projects, .courses {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for individual projects */
+.project, .course {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Styles for filter input */
+.filter input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .intro, .projects, .courses {
+        padding: 10px;
+    }
+}
